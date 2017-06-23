@@ -8,5 +8,5 @@ from django.views.decorators import csrf
 def search_post(request):
     ctx = {}
     if request.POST:
-        ctx['rlt'] = request.POST['q']
+        ctx['rlt'] = request.POST['qmo']
     return render(request, "post.html", ctx)

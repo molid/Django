@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'TestModel',
+    'DownLoad',
     # 'polls',
 ]
 
@@ -79,9 +80,9 @@ WSGI_APPLICATION = 'HelloWorld.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',#django.db.backends.sqlite3
-        'NAME': 'test_django',#test_django
+        'NAME': 'django',#test_django
         'USER':'root',
-        'PASSWORD': '123456',
+        'PASSWORD': '',
         'HOST':'localhost',
         'PORT':'3306'
     }
